@@ -18,11 +18,12 @@ export default function Home({ articles}) {
   return (
     <>
       <h1>Scroll.in</h1>
+      <h2>Changes Are Made</h2>
       {articles.map(article => (
-        <>
+        <div key={article.id}>
          <p>{article.id}</p>
          <h3>{article.title}</h3>
-        </>
+        </div>
       ))}
     </>
   )
