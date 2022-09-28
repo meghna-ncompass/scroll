@@ -19,7 +19,7 @@ export default function Home({ todos }) {
   return (
     <>
       <h1>Scroll.in</h1>
-      <h2>Changes Are Made</h2>
+      <h2>Preview Mode</h2>
       {todos.map(todo => (
         <div key={todo.id}>
          <h3>{todo.title}</h3>
